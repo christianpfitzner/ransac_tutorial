@@ -4,7 +4,7 @@ This is the tutorial for the RANSAC algorithm taught at the Technische Hochschul
 
 
 ## Search for the line model
-Use the existing *[template](https://github.com/christianpfitzner/ransac_tutorial/blob/master/ransac_template.m) to write the RANSAC algorithm to find the line. 
+Use the existing *[template](https://github.com/christianpfitzner/ransac_tutorial/blob/master/ransac_template.m)* to write the RANSAC algorithm to find the line. 
 
 
 ## Search for the circle model
