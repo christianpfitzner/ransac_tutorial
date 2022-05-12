@@ -33,8 +33,7 @@ Have a close look in the code and its comments, which provide extra help for the
 
 Two points are necessary to calculate the model for a randomly selected set of points. You can use the known equation, but there is a much simpler solution to this. 
 
-![image](https://user-images.githubusercontent.com/20952014/168018400-2a7616c0-cda5-4e80-ae7f-ea8bd7d46d51.png)
-
+![image](https://user-images.githubusercontent.com/20952014/168019489-3a6bc44d-5b4c-45f7-976a-522283d7af2a.png)
 
 
 Your solution should lead to a similar result like the following figure. 
