@@ -18,6 +18,15 @@ The principle of the RANSAC is summarized by the following steps:
 Use the existing *[template](https://github.com/christianpfitzner/ransac_tutorial/blob/master/ransac_template.m)* to write the RANSAC algorithm to find the line. 
 
 
+Use the highlighted placeholders to add your code to complete the algorithm. 
+```
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        ADD YOUR CODE HERE          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
+
+Have a close look in the code and its comments, which provide extra help for the implementation. 
+
 
 
 ## Search for the circle model
