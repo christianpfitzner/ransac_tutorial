@@ -13,7 +13,9 @@ The principle of the RANSAC is summarized by the following steps:
 5. Afterwards, the model may be improved by reestimating it using all members of the consensus set, by applying the least square approach. 
 
 
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 
 
@@ -30,6 +32,7 @@ Use the highlighted placeholders to add your code to complete the algorithm.
 Have a close look in the code and its comments, which provide extra help for the implementation. 
 
 Two points are necessary to calculate the model for a randomly selected set of points. You can use the known equation, but there is a much simpler solution to this. 
+
 ![image](https://user-images.githubusercontent.com/20952014/168018400-2a7616c0-cda5-4e80-ae7f-ea8bd7d46d51.png)
 
 
@@ -40,7 +43,9 @@ Your solution should lead to a similar result like the following figure.
 
 
 
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 
 
@@ -73,7 +78,9 @@ The solution of the RANSAC for the circle should look similar to the following f
 
 
 
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
 
 ## Helpful links to ease programmin in matlab
