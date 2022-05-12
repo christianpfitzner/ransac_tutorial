@@ -17,15 +17,21 @@ The principle of the RANSAC is summarized by the following steps:
 ## Search for the line model
 Use the existing *[template](https://github.com/christianpfitzner/ransac_tutorial/blob/master/ransac_template.m)* to write the RANSAC algorithm to find the line. 
 
-
 Use the highlighted placeholders to add your code to complete the algorithm. 
 ```
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %        ADD YOUR CODE HERE          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
-
 Have a close look in the code and its comments, which provide extra help for the implementation. 
+
+Two points are necessary to calculate the model for a randomly selected set of points. 
+
+
+Your solution should lead to a similar result like the following figure. 
+
+![image](https://user-images.githubusercontent.com/20952014/168016237-fa93a4ef-4420-44ad-9de5-8a9f4957bba0.png)
+
 
 
 
@@ -48,6 +54,11 @@ Finally, the circles radius can be calculated where
 ![image](https://user-images.githubusercontent.com/20952014/168009739-f70e4584-0b44-4d00-afed-48a697e5da50.png)
 
 
+
+
+The solution of the RANSAC for the circle should look similar to the following figure. 
+
+![image](https://user-images.githubusercontent.com/20952014/168016643-f82823d4-ace4-419d-91e1-f3fb721592b7.png)
 
 
 
