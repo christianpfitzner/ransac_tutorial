@@ -14,6 +14,10 @@ The principle of the RANSAC is summarized by the following steps:
 
 
 
+
+
+
+
 ## Search for the line model
 Use the existing *[template](https://github.com/christianpfitzner/ransac_tutorial/blob/master/ransac_template.m)* to write the RANSAC algorithm to find the line. 
 
@@ -25,12 +29,19 @@ Use the highlighted placeholders to add your code to complete the algorithm.
 ```
 Have a close look in the code and its comments, which provide extra help for the implementation. 
 
-Two points are necessary to calculate the model for a randomly selected set of points. 
+Two points are necessary to calculate the model for a randomly selected set of points. You can use the known equation, but there is a much simpler solution to this. 
+![image](https://user-images.githubusercontent.com/20952014/168018400-2a7616c0-cda5-4e80-ae7f-ea8bd7d46d51.png)
+
 
 
 Your solution should lead to a similar result like the following figure. 
 
 ![image](https://user-images.githubusercontent.com/20952014/168016237-fa93a4ef-4420-44ad-9de5-8a9f4957bba0.png)
+
+
+
+
+
 
 
 
