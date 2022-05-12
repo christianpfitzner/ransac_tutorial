@@ -5,6 +5,15 @@ The script *[generate_data.m](https://github.com/christianpfitzner/ransac_tutori
 ![dataset image](https://user-images.githubusercontent.com/20952014/168008036-63e2e9a2-a1a1-4066-9e16-1b80822cbf4e.png)
 
 
+The principle of the RANSAC is summarized by the following steps: 
+1. Select a random subset of the original data. Call this subset the hypothetical inliers.
+2. A model is fitted to the set of potential inliers
+3. The complete data is then tested against the fitted model. Those points that fit the estimated model well, according to some model-specific loss function, are considered as part of the consensus set.
+4. The estimated model is reasonably good if sufficiently many points have been classified as part of the consensus set.
+5. Afterwards, the model may be improved by reestimating it using all members of the consensus set, by applying the least square approach. 
+
+
+
 ## Search for the line model
 Use the existing *[template](https://github.com/christianpfitzner/ransac_tutorial/blob/master/ransac_template.m)* to write the RANSAC algorithm to find the line. 
 
