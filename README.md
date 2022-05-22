@@ -58,6 +58,8 @@ The equation for a circle is described by the error term in the least square app
 
 Based on partial derivative the error term can be solved. The result are the following equations, 
 
+$$A = B \cdot u$$
+
 ![image](https://user-images.githubusercontent.com/20952014/168009514-f214d678-67e2-4606-84f2-aa02c338567d.png)
 
 which form a linear equation system; here presented as matrices. 
